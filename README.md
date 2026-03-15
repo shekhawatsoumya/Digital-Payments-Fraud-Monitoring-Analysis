@@ -47,5 +47,8 @@ This project detects and monitors potential fraudulent transactions in digital p
 4. Validate with data drill-down and filter interactions.
 5. Document findings and recommendations in the report.
 
-
+## All Analysis Completed
+- The full analysis has been completed in Power BI.
+- Use the Power BI report file (in `Result/` or your project folder) to see the visual dashboards.
+- Results include fraud monitoring metrics, trending alerts, and recommended focus areas for risk prevention.
 
