@@ -1,0 +1,22 @@
+Digital Payments Fraud Monitoring Analysis Summary :
+This dashboard provides a comprehensive overview of 1 million digital payment transactions, totaling $166.37 billion. While the overall fraud rate is low at 0.11%, the financial impact is significant, with $1.36 billion lost across 1,142 fraudulent transactions.
+Key Performance Indicators (KPIs)
+Total Transactions: 1,000,000
+Total Volume: $166.37 Billion
+Fraudulent Transactions: 1,142
+Fraud Amount: $1.36 Billion
+Fraud Rate: 0.11%
+Transaction & Fraud Insights
+1. Transaction Volume by Type
+The majority of transaction volume is driven by CASH_OUT ($69bn), followed by TRANSFER ($55bn) and CASH_IN ($39bn). Although "Payment" and "Debit" types exist, their financial footprint is minimal in comparison.
+2. Fraud Concentration
+Fraud is strictly concentrated in two transaction types:
+CASH_OUT: 578 fraudulent transactions.
+TRANSFER: 564 fraudulent transactions.
+Other methods (CASH_IN, DEBIT, PAYMENT) show zero reported fraud, indicating that high-value outbound movements are the primary risk vectors.
+3. Temporal Patterns (By Step)
+Transaction Spikes: Total transaction volume peaks significantly around "Step 20" (51K) and "Step 45" (45K).
+Fraud Volatility: Fraudulent activity is highly erratic. Significant spikes in fraud occur around Step 10, Step 35, and a major peak of 24 fraudulent transactions at Step 65. Even when total transaction volume drops to near zero (after Step 90), fraudulent attempts continue to occur.
+Critical Observations
+High Severity, Low Frequency: While only 0.11% of transactions are fraudulent, they account for nearly $1.2M per fraudulent event on average ($1.36bn / 1,142).
+Risk Correlation: The "TRANSFER" and "CASH_OUT" types are the only categories experiencing fraud. This suggests a need for enhanced verification specifically for these "money-out" actions.
